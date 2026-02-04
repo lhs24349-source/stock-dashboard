@@ -1,0 +1,9 @@
+streamlit
+feedparser
+google-genai
+pandas
+plotly
+beautifulsoup4
+python-dotenv
+watchdog
+python-dateutil

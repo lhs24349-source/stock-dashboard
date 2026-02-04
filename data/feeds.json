@@ -1,0 +1,17 @@
+[
+    {
+        "name": "구글 금융 (국내)",
+        "url": "https://news.google.com/rss/topics/CAAqJQgKIh9DQkFTRVFvSUwyMHZNRGx6TVdZU0FtdHZHZ0pMVWlnQVAB?hl=ko&gl=KR&ceid=KR%3Ako",
+        "category": "Domestic"
+    },
+    {
+        "name": "네이버 금융 (구글뉴스 RSS 대체)",
+        "url": "https://news.google.com/rss/search?q=site:finance.naver.com&hl=ko&gl=KR&ceid=KR:ko",
+        "category": "Economy" 
+    },
+    {
+        "name": "매일경제 (전체)",
+        "url": "https://www.mk.co.kr/rss/30000001/",
+        "category": "Economy"
+    }
+]
