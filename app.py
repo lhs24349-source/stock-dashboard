@@ -14,12 +14,12 @@ st.set_page_config(
 )
 
 # Initialize Managers
-@st.cache_resource
+# Removed cache to ensure secrets are re-read if added later
 def get_managers():
     dm = DataManager()
     # Safely get API key
     try:
-        api_key = st.secrets["GOOGLE_API_KEY"]
+        api_key = st.secrets.get("GOOGLE_API_KEY") 
     except Exception:
         api_key = None
     
